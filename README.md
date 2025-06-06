@@ -1,0 +1,2 @@
+- 👋 Hi, I’m @turtleshell8
+- im getting into kali and codeing

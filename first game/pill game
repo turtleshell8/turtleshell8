@@ -1,0 +1,84 @@
+i have made a game for python its heavly inspired by buckshot roulet and another game wich i unfortunataly do not know the name but its on itch.io and has something to do with sideeffects and pills
+
+
+welcome = "Welcome to Pill Game"
+print(welcome, "this game is a tie breaker game or game of chance")
+print("what ever you call its a game so lets play it")
+tutorial = input("do you want a tutorial y/n ")
+if tutorial == "y":
+    print("here is how it works you have to press a number that's 1-5 these represent pills but 1 pill is bad")
+    print("and if eat the bad pill you die or lose and every pill you take one is permanataly taken and if theres 1 pill left you win")
+
+if tutorial == "y":
+    ask_1 = input("pick your pill ")
+    if ask_1 == "1":
+        print("live")
+    if ask_1 == "2":
+       print("live")
+    if ask_1 == "3":
+        print("live")
+    if ask_1 == "4":
+        print("dead/end")
+    if ask_1 == "5":
+        print("live")
+    if ask_1 == "1" or ask_1 == "2" or ask_1 == "3" or ask_1 == "5":
+        ask_2 = input("pick your pill ")
+        if ask_2 == "1":
+            print("live")
+        if ask_2 == "2":
+            print("live")
+        if ask_2 == "3":
+            print("live")
+        if ask_2 == "4":
+            print("dead/end")
+        if ask_2 == "1" or ask_2 == "2" or ask_2 == "3":
+            ask_3 = input("pick your pill ")
+            if ask_3 == "1":
+                print("live")
+            if ask_3 == "2":
+                print("dead/end")
+            if ask_3 == "3":
+                print("live")
+            if ask_3 == "1" or ask_3 == "3":
+                ask_4 = input("pick your pill ")
+                if ask_4 == "1":
+                    print("live")
+                if ask_4 == "2":
+                    print("dead/end")
+
+if tutorial == "n":
+    ask_1 = input("pick your pill ")
+    if ask_1 == "1":
+        print("live")
+    if ask_1 == "2":
+        print("live")
+    if ask_1 == "3":
+        print("live")
+    if ask_1 == "4":
+        print("dead/end")
+    if ask_1 == "5":
+        print("live")
+    if ask_1 == "1" or ask_1 == "2" or ask_1 == "3" or ask_1 == "5":
+        ask_2 = input("pick your pill ")
+        if ask_2 == "1":
+            print("live")
+        if ask_2 == "2":
+            print("live")
+        if ask_2 == "3":
+            print("live")
+        if ask_2 == "4":
+            print("dead/end")
+        if ask_2 == "1" or ask_2 == "2" or ask_2 == "3":
+            ask_3 = input("pick your pill ")
+            if ask_3 == "1":
+                print("live")
+            if ask_3 == "2":
+                print("dead/end")
+            if ask_3 == "3":
+                print("live")
+            if ask_3 == "1" or ask_3 == "3":
+                ask_4 = input("pick your pill ")
+                if ask_4 == "1":
+                    print("live")
+                if ask_4 == "2":
+                    print("dead/end")
